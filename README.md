@@ -61,11 +61,10 @@ Combino visão de **Lean Manufacturing**, **mapeamento de processos** e **automa
 
 CRM industrial para técnicos de campo e gestores. Dois perfis com operações distintas, dados em tempo real e uso em celular no campo.
 
-• Agenda inteligente com visão "Meu Dia"  
-• OCR de odômetro via Google Cloud Vision  
-• Sell-out com workflow de aprovação  
-• Painel executivo com export Power BI  
-• PWA mobile-first • E2E com Playwright
+• Agenda inteligente com visão "Meu Dia"  
+• OCR de odômetro via Google Cloud Vision  
+• Sell-out com workflow de aprovação  
+• Painel executivo com export Power BI  
 
 **Next.js • React • TypeScript • Supabase • RLS**
 
@@ -76,15 +75,32 @@ CRM industrial para técnicos de campo e gestores. Dois perfis com operações d
 
 #### [⚙️ EDM Lean — SaaS de Produção Industrial](https://github.com/michelfioravante-alt/edm-lean)
 
-Plataforma SaaS para gestão de produção em eletroerosão a fio (Wire EDM). Desenvolvida com metodologia Lean para o chão de fábrica.
+Plataforma SaaS para gestão de produção em eletroerosão a fio (Wire EDM). Desenvolvida com metodologia Lean.
 
-• Quadro Kanban de ordens de serviço  
-• Cálculo automático de OEE  
-• Gestão multi-tenant com convites  
-• Controle de paradas e setups  
-• Row Level Security para isolamento
+• Quadro Kanban de ordens de serviço  
+• Cálculo automático de OEE  
+• Gestão multi-tenant com convites  
+• Controle de paradas e setups  
 
 **React • Vite • TypeScript • Supabase • Tailwind**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### [📊 NovaPay — Painel de Performance Comercial](https://github.com/michelfioravante-alt/novapay-dashboard)
+
+Dashboard financeiro e comercial integrado com automações avançadas e segurança a nível de linha. Demonstra capacidade de unir negócio (KPIs, metas) à tecnologia (n8n, Webhooks).
+
+• Automação de Alertas n8n (workflows exportáveis)  
+• Supabase Triggers (SQL) para atualizações financeiras automáticas  
+• Controle granular de visão (Gestor vs Vendedor)  
+• Gráficos dinâmicos com Recharts e Tailwind  
+
+**React • Vite • n8n • Supabase (Auth, DB, Triggers) • RLS**
+
+[🔗 Demo ao vivo](https://novapay-dashboard.vercel.app/)
 
 </td>
 </tr>
