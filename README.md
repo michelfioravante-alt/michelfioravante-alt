@@ -2,6 +2,8 @@
 
 # Michel Fioravante
 
+**Construo CRMs e SaaS industriais (React/Next + Supabase) a partir de mapeamento de processos e Lean Manufacturing.**
+
 ### Engenheiro de Processos • Automação Industrial • Desenvolvedor Full-Stack
 
 *Pós-graduado em Engenharia de Processos (PUC-RS) • Gestão da Produção Industrial (ULBRA)*
@@ -9,7 +11,21 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-fioravante/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:michelfioravante@gmail.com)
 
+[![Demo CRM MWK](https://img.shields.io/badge/Demo-CRM_MWK-000?style=for-the-badge&logo=vercel&logoColor=white)](https://crm-mwk.vercel.app)
+[![Demo EDM Lean](https://img.shields.io/badge/Demo-EDM_Lean-2E7D32?style=for-the-badge&logo=vercel&logoColor=white)](https://www.edmlean.com.br/)
+[![Demo NovaPay](https://img.shields.io/badge/Demo-NovaPay-646CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://novapay-dashboard.vercel.app/)
+
 </div>
+
+---
+
+### ⏱️ Como me avaliar em 5 minutos
+
+1. **[CRM MWK — demo](https://crm-mwk.vercel.app)** — entre como Técnico ou Gestor; veja agenda de campo, fluxo comercial e painel executivo.
+2. **[NovaPay — demo](https://novapay-dashboard.vercel.app/)** — login de teste no README do repo; compare visão Gestor vs Vendedor (RLS).
+3. **[EDM Lean — demo](https://www.edmlean.com.br/)** — Kanban de ordens de serviço, OEE e gestão multi-tenant; detalhes técnicos no [repositório](https://github.com/michelfioravante-alt/edm-lean).
+
+> Demos com **dados fictícios ou ambiente de portfólio** — foco em UX, arquitetura e processo de negócio.
 
 ---
 
@@ -83,6 +99,8 @@ Plataforma SaaS para gestão de produção em eletroerosão a fio (Wire EDM). De
 • Controle de paradas e setups  
 
 **React • Vite • TypeScript • Supabase • Tailwind**
+
+[🔗 Demo ao vivo](https://www.edmlean.com.br/)
 
 </td>
 </tr>
