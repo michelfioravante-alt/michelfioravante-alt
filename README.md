@@ -2,15 +2,14 @@
 
 # Michel Fioravante
 
-**Construo CRMs e SaaS industriais (React/Next + Supabase) a partir de mapeamento de processos e Lean Manufacturing.**
+**Desenvolvo CRMs, Dashboards e SaaS B2B (React/Next + Supabase) focados em otimização de processos, eficiência operacional e automação comercial.**
 
-### Engenheiro de Processos • Automação Industrial • Desenvolvedor Full-Stack
+### Desenvolvedor Full-Stack • Engenheiro de Processos • SaaS & Automações B2B
 
 *Pós-graduado em Engenharia de Processos (PUC-RS) • Gestão da Produção Industrial (ULBRA)*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-fioravante/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:michelfioravante@gmail.com)
-
 [![Demo CRM MWK](https://img.shields.io/badge/Demo-CRM_MWK-000?style=for-the-badge&logo=vercel&logoColor=white)](https://crm-mwk.vercel.app)
 [![Demo EDM Lean](https://img.shields.io/badge/Demo-EDM_Lean-2E7D32?style=for-the-badge&logo=vercel&logoColor=white)](https://www.edmlean.com.br/)
 [![Demo NovaPay](https://img.shields.io/badge/Demo-NovaPay-646CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://novapay-dashboard.vercel.app/)
@@ -29,9 +28,9 @@
 
 ---
 
-Analista de processos com formação em **Gestão da Produção Industrial** e pós em **Engenharia de Processos**, construo as ferramentas que a indústria precisa — do mapeamento BPMN ao sistema rodando em produção.
+Analista de processos com formação em **Gestão da Produção Industrial** e pós em **Engenharia de Processos**, construo ferramentas focadas em eficiência operacional e escala de negócios — do mapeamento BPMN ao sistema rodando em produção.
 
-Combino visão de **Lean Manufacturing**, **mapeamento de processos** e **automação** com habilidade técnica para desenvolver plataformas SaaS, CRMs industriais e integrações inteligentes com IA.
+Combino visão de **Engenharia de Processos**, **mapeamento de fluxos** e **automação** com habilidade técnica para desenvolver plataformas SaaS, CRMs B2B, automações comerciais e integrações inteligentes com IA.
 
 ---
 
@@ -43,7 +42,7 @@ Combino visão de **Lean Manufacturing**, **mapeamento de processos** e **automa
 ![BPMN](https://img.shields.io/badge/BPMN-FF6F00?style=flat-square&logoColor=white)
 ![Bizagi](https://img.shields.io/badge/Bizagi-0078D4?style=flat-square&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=000)
-![Excel](https://img.shields.io/badge/Excel_Avançado-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel_Avançado-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 **Desenvolvimento & Tecnologia**
@@ -73,14 +72,14 @@ Combino visão de **Lean Manufacturing**, **mapeamento de processos** e **automa
 <tr>
 <td width="50%" valign="top">
 
-#### [📋 CRM MWK — Gestão Comercial de Campo](https://github.com/michelfioravante-alt/crm-mwk)
+#### [📋 CRM MWK – Gestão Comercial de Campo](https://github.com/michelfioravante-alt/crm-mwk)
 
-CRM industrial para técnicos de campo e gestores. Dois perfis com operações distintas, dados em tempo real e uso em celular no campo.
+CRM B2B para equipes comerciais de campo e gestores. Dois perfis com operações distintas, dados em tempo real e uso em celular no campo.
 
-• Agenda inteligente com visão "Meu Dia"  
-• OCR de odômetro via Google Cloud Vision  
-• Sell-out com workflow de aprovação  
-• Painel executivo com export Power BI  
+• Agenda inteligente com visão "Meu Dia"
+• OCR de odômetro via Google Cloud Vision
+• Sell-out com workflow de aprovação
+• Painel executivo com export Power BI
 
 **Next.js • React • TypeScript • Supabase • RLS**
 
@@ -89,14 +88,14 @@ CRM industrial para técnicos de campo e gestores. Dois perfis com operações d
 </td>
 <td width="50%" valign="top">
 
-#### [⚙️ EDM Lean — SaaS de Produção Industrial](https://github.com/michelfioravante-alt/edm-lean)
+#### [⚙️ EDM Lean – SaaS de Produção Industrial](https://github.com/michelfioravante-alt/edm-lean)
 
 Plataforma SaaS para gestão de produção em eletroerosão a fio (Wire EDM). Desenvolvida com metodologia Lean.
 
-• Quadro Kanban de ordens de serviço  
-• Cálculo automático de OEE  
-• Gestão multi-tenant com convites  
-• Controle de paradas e setups  
+• Quadro Kanban de ordens de serviço
+• Cálculo automático de OEE
+• Gestão multi-tenant com convites
+• Controle de paradas e setups
 
 **React • Vite • TypeScript • Supabase • Tailwind**
 
@@ -107,14 +106,14 @@ Plataforma SaaS para gestão de produção em eletroerosão a fio (Wire EDM). De
 <tr>
 <td colspan="2" valign="top">
 
-#### [📊 NovaPay — Painel de Performance Comercial](https://github.com/michelfioravante-alt/novapay-dashboard)
+#### [📊 NovaPay – Painel de Performance Comercial](https://github.com/michelfioravante-alt/novapay-dashboard)
 
 Dashboard financeiro e comercial integrado com automações avançadas e segurança a nível de linha. Demonstra capacidade de unir negócio (KPIs, metas) à tecnologia (n8n, Webhooks).
 
-• Automação de Alertas n8n (workflows exportáveis)  
-• Supabase Triggers (SQL) para atualizações financeiras automáticas  
-• Controle granular de visão (Gestor vs Vendedor)  
-• Gráficos dinâmicos com Recharts e Tailwind  
+• Automação de Alertas n8n (workflows exportáveis)
+• Supabase Triggers (SQL) para atualizações financeiras automáticas
+• Controle granular de visão (Gestor vs Vendedor)
+• Gráficos dinâmicos com Recharts e Tailwind
 
 **React • Vite • n8n • Supabase (Auth, DB, Triggers) • RLS**
 
@@ -130,9 +129,9 @@ Dashboard financeiro e comercial integrado com automações avançadas e seguran
 
 | Curso | Instituição |
 |:------|:------------|
-| Pós-Graduação em **Engenharia de Processos** | PUC — Porto Alegre, RS |
-| Gestão da **Produção Industrial** | ULBRA — Canoas, RS |
+| Pós-Graduação em **Engenharia de Processos** | PUC - Porto Alegre, RS |
+| Gestão da **Produção Industrial** | ULBRA - Canoas, RS |
 
 ---
 
-### 📍 Sapucaia do Sul — RS, Brasil
+### 📍 Sapucaia do Sul – RS, Brasil
