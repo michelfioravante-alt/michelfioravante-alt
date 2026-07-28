@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" height="150" alt="Paisagem 16-bits" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Banner Pixel Art Landscape" />
   
   <br>
   
