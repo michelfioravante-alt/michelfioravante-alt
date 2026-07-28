@@ -1,15 +1,14 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/master/assets/Cool-Gifs/Retro/retro-city.gif" width="100%" />
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100%" alt="Paisagem 16-bits" />
   
   <br>
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=26&pause=1000&color=b0b0b0&center=true&vCenter=true&width=800&height=50&lines=Michel+Fioravante" alt="Michel Fioravante" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=30&pause=1000&color=9CA3AF&center=true&vCenter=true&width=800&height=60&lines=Michel+Fioravante" alt="Michel Fioravante" />
 </div>
 
 <div align="center">
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-fioravante/)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:michelfioravante@gmail.com)
-
+  <a href="https://www.linkedin.com/in/michel-fioravante/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:michelfioravante@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <br />
 </div>
 
@@ -28,21 +27,21 @@ Meu grande diferencial é não apenas "escrever código", mas **resolver o probl
 <div align="center">
 
 ### Arquitetura & Banco de Dados
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" />
 
 ### Front-End
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 
 ### Processos & Engenharia
-![Lean](https://img.shields.io/badge/Lean_Manufacturing-2E7D32?style=for-the-badge&logoColor=white)
-![BPMN](https://img.shields.io/badge/Modelagem_BPMN-FF9800?style=for-the-badge&logoColor=white)
-![Agile](https://img.shields.io/badge/Metodologias_Ágeis-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+<img src="https://img.shields.io/badge/Lean_Manufacturing-2E7D32?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Modelagem_BPMN-FF9800?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Metodologias_Ágeis-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
 
 </div>
 
