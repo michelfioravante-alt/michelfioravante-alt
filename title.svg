@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="100%" height="150">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#026ab6">
+        <animate attributeName="stop-color" values="#026ab6;#0093c4;#026ab6" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" values="#00e5ff;#02c0eb;#00e5ff" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <style>
+      .title { font-family: "Georgia", "Times New Roman", serif; font-size: 44px; fill: #ffffff; text-anchor: middle; font-weight: normal; letter-spacing: -0.5px; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; fill: #ffffff; text-anchor: middle; font-weight: 400; }
+    </style>
+  </defs>
+
+  <!-- Fundo transparente para combinar com a paisagem caso fique logo abaixo -->
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="2s" fill="freeze" />
+    
+    <text x="400" y="70" class="title">Michel Fioravante</text>
+    <text x="400" y="115" class="subtitle" opacity="0.9">Especialista em Automação de Processos &amp; Desenvolvimento de Soluções B2B</text>
+  </g>
+</svg>
