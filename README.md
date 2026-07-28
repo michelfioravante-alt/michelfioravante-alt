@@ -83,7 +83,6 @@ Não fico apenas apertando botões e escrevendo código; minha missão principal
       <p><b>Quest:</b> <i>Isolar visões de gestão usando Row Level Security.</i></p>
       <p>Dashboard de vendas e comissionamento de maquininhas de cartão com permissões RLS complexas.</p>
       <p>
-        <a href="https://novapay-dashboard.vercel.app/"><img src="https://img.shields.io/badge/PLAY_DEMO-646CFF?style=plastic&logo=vercel&logoColor=39FF14" /></a>
         <a href="https://github.com/michelfioravante-alt/novapay-dashboard"><img src="https://img.shields.io/badge/SOURCE_CODE-181717?style=plastic&logo=github&logoColor=white" /></a>
       </p>
     </td>
