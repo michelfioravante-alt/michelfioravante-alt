@@ -103,6 +103,6 @@ Neste portfólio, priorizo aplicações robustas com regras de negócio complexa
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=michelfioravante-alt&show_icons=true&theme=transparent&hide_border=true&title_color=0055ff&text_color=777" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=michelfioravante-alt&theme=transparent&hide_border=true&title_color=0055ff&text_color=777" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=michelfioravante-alt&show_icons=true&theme=transparent&hide_border=true&title_color=00ffff&text_color=ffffff&icon_color=ff007f" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=michelfioravante-alt&theme=transparent&hide_border=true&title_color=00ffff&text_color=ffffff&icon_color=ff007f&ring=00ffff&fire=ff007f" width="48%" />
 </div>
