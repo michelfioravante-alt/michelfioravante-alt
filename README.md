@@ -1,108 +1,107 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Banner Pixel Art Landscape" />
-  
-  <br>
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=30&pause=1000&color=9CA3AF&center=true&vCenter=true&width=800&height=60&lines=Michel+Fioravante" alt="Michel Fioravante" />
-</div>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/michel-fioravante/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:michelfioravante@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <br />
-</div>
+# Michel Fioravante
 
-## 🚀 Sobre Mim
+**Analista de Processos · Full-Stack B2B · Automação Industrial e Comercial**
 
-Sou **Especialista em Automação e Engenharia de Processos**, com formação em Gestão da Produção Industrial (ULBRA) e pós-graduação em Engenharia de Processos (PUC-RS). 
+Mapeio a operação no chão de fábrica e no comercial. Depois construo o sistema que tira o processo da planilha e coloca em produção.
 
-Atuo de ponta a ponta: do mapeamento de fluxos AS-IS/TO-BE no chão de fábrica e escritórios corporativos, até o desenvolvimento completo (Full-Stack) da solução tecnológica que automatiza e escala a operação. 
+*Process analyst who ships software — BPMN & Lean first, then React/Next.js, Supabase and n8n.*
 
-Meu grande diferencial é não apenas "escrever código", mas **resolver o problema do negócio**, orquestrando arquitetura, UX, integrações e segurança para entregar resultados reais.
+Sapucaia do Sul, RS · Aberto a oportunidades
 
----
-
-## 🛠️ Tech Stack & Ferramentas
-
-<div align="center">
-
-### Arquitetura & Banco de Dados
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white" />
-
-### Front-End
-<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-
-### Processos & Engenharia
-<img src="https://img.shields.io/badge/Lean_Manufacturing-2E7D32?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Modelagem_BPMN-FF9800?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Metodologias_Ágeis-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-fioravante/)
+[![E-mail](https://img.shields.io/badge/michelfioravante@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:michelfioravante@gmail.com)
+[![EDM Lean](https://img.shields.io/badge/Produto-edmlean.com.br-111111?style=flat-square)](https://edmlean.com.br)
 
 </div>
 
 ---
 
-## 💻 Principais Projetos em Destaque
+## Sobre
 
-Neste portfólio, priorizo aplicações robustas com regras de negócio complexas. Todos os links de demonstração contêm dados anonimizados/fictícios para preservar a segurança dos clientes.
+Sou formado em **Gestão da Produção Industrial (ULBRA)** com **MBA em Engenharia de Processos (PUCRS)**. Atuo na interseção entre operação e software: levantamento AS-IS/TO-BE, POPs, KPIs — e o desenvolvimento full-stack da ferramenta que sustenta o novo fluxo.
 
-<br>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>1️⃣ CRM MWK</h3>
-      <p><b>Painel de Distribuição B2B e Controle de Campo</b></p>
-      <p>Substituiu uma operação baseada em planilhas fragmentadas por uma plataforma web integrada. Possui gestão de funil comercial, relatórios técnicos, controle de KM diário integrado à IA (OCR) e exportação avançada de dados gerenciais.</p>
-      <p>
-        <a href="https://crm-mwk.vercel.app"><img src="https://img.shields.io/badge/Acessar_Demo-000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-        <a href="https://github.com/michelfioravante-alt/crm-mwk"><img src="https://img.shields.io/badge/Repositório-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      </p>
-      <p><em>Tech: Next.js, Supabase, Inteligência Artificial.</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>2️⃣ EDM Lean</h3>
-      <p><b>SaaS Industrial (Kanban & OEE)</b></p>
-      <p>Plataforma Multi-Tenant SaaS para gestão de produção em usinagem por eletroerosão. Automatiza o cálculo de OEE (Overall Equipment Effectiveness) e orquestra ordens de serviço. Elevou a disponibilidade média de 48% para 61% em 3 meses.</p>
-      <p>
-        <a href="https://www.edmlean.com.br/"><img src="https://img.shields.io/badge/Acessar_Demo-2E7D32?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-        <a href="https://github.com/michelfioravante-alt/edm-lean"><img src="https://img.shields.io/badge/Repositório-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      </p>
-      <p><em>Tech: React, Supabase, Postgres RLS, Tailwind.</em></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>3️⃣ Nexlog AI</h3>
-      <p><b>Orquestração Cognitiva de Logística</b></p>
-      <p>Automação de atendimento via WhatsApp para transportadoras. Usa inteligência artificial (LLMs) integrada ao n8n para classificar intenções, extrair dados estruturados (CT-e, NFe) e interagir em tempo real via API, reduzindo o tempo de resposta em 90%.</p>
-      <p>
-        <a href="https://github.com/michelfioravante-alt/nexlog-ai-automation"><img src="https://img.shields.io/badge/Ver_Repositório-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      </p>
-      <p><em>Tech: n8n, OpenAI, WhatsApp API, Webhooks.</em></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>4️⃣ NovaPay</h3>
-      <p><b>Dashboard de Vendas Corporativas</b></p>
-      <p>Painel moderno para gestão de vendas de adquirencia de cartões e controle de comissionamento. Utiliza regras rígidas de segurança em banco de dados (Row Level Security) para isolar a visão do gestor regional da visão do representante comercial.</p>
-      <p>
-        <a href="https://github.com/michelfioravante-alt/novapay-dashboard"><img src="https://img.shields.io/badge/Repositório-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      </p>
-      <p><em>Tech: Next.js, Shadcn/UI, Supabase.</em></p>
-    </td>
-  </tr>
-</table>
+Não entrego só código. Entrego processo mapeado, regra de negócio no banco e uma interface que a operação consegue usar no dia a dia.
 
 ---
 
-## 📈 GitHub Stats
+## Impacto (o que um recrutador precisa ver)
 
-<div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=michelfioravante-alt&show_icons=true&theme=transparent&hide_border=true&title_color=00ffff&text_color=ffffff&icon_color=ff007f" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=michelfioravante-alt&theme=transparent&hide_border=true&title_color=00ffff&text_color=ffffff&icon_color=ff007f&ring=00ffff&fire=ff007f" width="48%" />
-</div>
+| Resultado | Contexto |
+| :--- | :--- |
+| **OEE 48% → 61% em 3 meses** | SaaS MES/Kanban para usinagem CNC e eletroerosão a fio |
+| **Planilha de 30 usuários → CRM em produção** | Operação B2B de campo, com OCR de odômetro e painel executivo |
+| **1ª resposta 4h → ~45s** | Atendimento WhatsApp com roteamento por LLM (n8n + Supabase) |
+| **RLS e triggers no PostgreSQL** | Isolamento Gestor vs. Operador sem regra de acesso no frontend |
+
+---
+
+## Projetos em destaque
+
+Os deploys usam dados anonimizados ou fictícios.
+
+### [EDM Lean](https://edmlean.com.br) — SaaS MES, Kanban e OEE
+Plataforma multi-setor para ferramentaria e usinagem: Kanban de O.S., horas máquina, importação de folhas CAM (ZW3D / Siemens NX), estoque de ferramental e visão de gestor com PIN master. Arquitetura multi-tenant com Supabase + RLS.
+
+**Stack:** React 18 · Vite · Supabase · PostgreSQL · Tailwind · Vercel  
+[Live](https://edmlean.com.br) · [Repositório](https://github.com/michelfioravante-alt/edm-lean)
+
+### [CRM MWK](https://crm-mwk.vercel.app) — CRM de campo B2B
+Substituiu o controle comercial em Excel. Dois perfis (técnico de campo e gestor): agenda do dia, sell-out com aprovação, OCR de odômetro (Google Cloud Vision), PWA e exportação para Excel/Power BI.
+
+**Stack:** Next.js · TypeScript · Supabase · Tailwind · Playwright · Vercel  
+[Demo](https://crm-mwk.vercel.app) · [Repositório](https://github.com/michelfioravante-alt/crm-mwk)
+
+### [Nexlog AI](https://github.com/michelfioravante-alt/nexlog-ai-automation) — Orquestração cognitiva de atendimento
+Triagem de chamados no WhatsApp com classificação por LLM, sessão stateful no Postgres, transcrição de áudio (Whisper/Groq) e escalation humano no ClickUp quando a confiança da IA é baixa.
+
+**Stack:** n8n · Supabase · Evolution API · LLM routing · Whisper  
+[Repositório](https://github.com/michelfioravante-alt/nexlog-ai-automation)
+
+### [NovaPay](https://novapay-dashboard.vercel.app) — Dashboard comercial com automação
+Painel gestor/vendedor com pipeline, metas e comissão. Lançamentos financeiros via trigger PL/pgSQL; alerta de meta abaixo de 70% via n8n (cron + webhook).
+
+**Stack:** React · TypeScript · Supabase · n8n · RLS  
+[Demo](https://novapay-dashboard.vercel.app) · [Repositório](https://github.com/michelfioravante-alt/novapay-dashboard)
+
+---
+
+## Stack
+
+**Produto e frontend**  
+`Next.js` `React` `TypeScript` `JavaScript` `Tailwind CSS` `Vite` `PWA`
+
+**Dados e backend**  
+`Supabase` `PostgreSQL` `SQL` `RLS` `PL/pgSQL` `Auth`
+
+**Automação e IA**  
+`n8n` `Webhooks` `LLM routing` `Evolution API` `Google Cloud Vision` `Whisper`
+
+**Processos**  
+`BPMN` `Lean` `OEE` `VSM` `AS-IS / TO-BE` `Power BI` `Excel avançado`
+
+**Qualidade e deploy**  
+`Playwright` `Puppeteer` `Vercel`
+
+---
+
+## Formação
+
+- **MBA** em Gestão da Qualidade e Engenharia de Processos — PUCRS (2024–2025)
+- **Graduação** em Gestão da Produção Industrial — ULBRA (2020–2024)
+- **Técnico** em Qualidade — Senac RS
+
+---
+
+## O que busco
+
+Conversas para papéis em que processo e software andam juntos:
+
+- Analista de Processos / Melhoria Contínua com implementação de sistemas
+- Full-Stack (React / Next.js) em produtos B2B ou industriais
+- Automação operacional (n8n, integrações, IA aplicada)
+
+Remoto ou Grande Porto Alegre (RS).
+
+[LinkedIn](https://www.linkedin.com/in/michel-fioravante/) · [michelfioravante@gmail.com](mailto:michelfioravante@gmail.com)
