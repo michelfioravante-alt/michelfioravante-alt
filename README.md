@@ -1,10 +1,19 @@
 # Michel Fioravante
 
+### ➜ [Portfólio ao vivo — michel-fioravante.vercel.app](https://michel-fioravante.vercel.app)
+
+> **Abra o link acima.** É a página com os projetos em produção (demos). O GitHub é o código; o portfólio é o que mostrar ao recrutador.
+
+---
+
 **Sistemas e automações em produção** — React, Supabase, n8n · Sapucaia do Sul, RS · Remoto
 
 Modelo o banco, coloco regra no backend e entrego ferramenta que a equipe usa no dia a dia. Não é demo de curso: são sistemas com usuários reais.
 
-[Portfólio](https://michel-fioravante.vercel.app) · [LinkedIn](https://www.linkedin.com/in/michel-fioravante/) · [E-mail](mailto:michelfioravante@gmail.com)
+[**Portfólio**](https://michel-fioravante.vercel.app) · [LinkedIn](https://www.linkedin.com/in/michel-fioravante/) · [E-mail](mailto:michelfioravante@gmail.com)
+
+[![Portfólio](https://img.shields.io/badge/Portfólio-michel--fioravante.vercel.app-c47a3a?style=for-the-badge)](https://michel-fioravante.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michel-fioravante/)
 
 ![React](https://img.shields.io/badge/React-111318?style=flat-square&logo=react&logoColor=61DAFB)
 ![Supabase](https://img.shields.io/badge/Supabase-111318?style=flat-square&logo=supabase&logoColor=3FCF8E)
@@ -41,4 +50,4 @@ Formação em engenharia de processos (ULBRA + MBA PUCRS). Uso Cursor/Claude par
 
 Vagas remotas de **automação, sistemas com Supabase/React e fluxos com IA** (n8n, integração, backend próximo do negócio).
 
-[Portfólio](https://michel-fioravante.vercel.app) · [LinkedIn](https://www.linkedin.com/in/michel-fioravante/) · michelfioravante@gmail.com
+**Portfólio:** [michel-fioravante.vercel.app](https://michel-fioravante.vercel.app) · [LinkedIn](https://www.linkedin.com/in/michel-fioravante/) · michelfioravante@gmail.com
