@@ -3,136 +3,214 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Michel Fioravante — Sistemas e automações em produção</title>
-  <meta name="description" content="Michel Fioravante: sistemas e automações em produção com React, Supabase e n8n. CRM, shop floor e WhatsApp." />
+  <title>Michel Fioravante — Automação, sistemas e processos</title>
+  <meta name="description" content="Michel Fioravante: automação, sistemas web e melhoria de processos. React, Supabase, n8n. Aberto a vagas home office." />
   <meta property="og:title" content="Michel Fioravante" />
-  <meta property="og:description" content="Sistemas e automações que empresas usam no dia a dia." />
+  <meta property="og:description" content="Automação, sistemas e processos — remoto." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://michel-fioravante.vercel.app/assets/edm-lean.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Cousine:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
-  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="top">
+    <a class="logo" href="#topo">Michel Fioravante</a>
+    <nav>
+      <a href="#trabalho">Trabalho</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-  <div class="sheet">
-    <header class="top">
-      <a class="mark" href="#topo">MICHEL FIORAVANTE</a>
-      <nav>
-        <a href="#trabalho">[TRABALHO]</a>
-        <a href="#contato">[CONTATO]</a>
-      </nav>
-    </header>
-    <hr class="ink-rule" />
+  <main id="topo">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Automação,<br />sistemas &amp;<br />processos</h1>
+        <p class="sub">React · Supabase · n8n · home office</p>
+      </div>
 
-    <main id="topo">
-      <section class="hero">
-        <div class="hero-visual">
-          <h1 class="hi">oi_</h1>
-          <figure class="polaroid">
-            <img src="assets/michel-ilustracao.jpg" alt="Ilustração de Michel Fioravante" width="420" height="420" />
-          </figure>
+      <div class="hero-art">
+        <div class="mascot-stage" id="mascot">
+          <svg class="mascot" viewBox="0 0 480 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M118 248c12-70 42-102 78-102s66 32 78 102" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M136 220c22 14 44 20 70 20s48-6 70-20" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+            <path d="M118 250c-22 10-40 36-44 58" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+            <path d="M274 248c28 8 58 28 86 48" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+            <path d="M350 292c10 2 22 3 34 0" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+            <path d="M358 296c3 8 6 14 8 20M370 294c2 9 5 16 6 22M380 292c2 8 4 14 5 18" stroke="#111" stroke-width="2.6" stroke-linecap="round" />
+            <path d="M182 168v28M210 168v30" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            <ellipse cx="196" cy="118" rx="58" ry="62" stroke="#111" stroke-width="3.4" fill="#fff" />
+            <path d="M142 118c4-48 28-72 54-72s50 24 54 72" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="#fff" />
+            <path d="M148 108c12-14 28-22 48-22s40 10 48 24" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M156 96c8-6 16-8 24-8" stroke="#111" stroke-width="3" stroke-linecap="round" />
+            <path d="M138 122c-10 2-16 12-12 22c3 8 12 12 18 8" stroke="#111" stroke-width="3.2" stroke-linecap="round" fill="#fff" />
+            <path d="M162 96c10-8 22-10 32-4" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M208 94c10-6 22-6 32 2" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M192 120c4 12 6 20 2 28" stroke="#111" stroke-width="3" stroke-linecap="round" />
+            <path d="M178 162c10 12 30 12 40 0" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            <g class="laptop">
+              <path d="M290 188l150-36 2 118-152 40z" stroke="#111" stroke-width="3.4" stroke-linejoin="round" fill="#fff" />
+              <path d="M304 192l124-30 1 96-125 32z" stroke="#111" stroke-width="2.6" fill="#fff" />
+              <path d="M288 310l154-36 22 16-170 48z" stroke="#111" stroke-width="3.4" stroke-linejoin="round" fill="#fff" />
+              <path d="M292 310h10" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+            </g>
+          </svg>
+
+          <div class="eye eye-l" data-eye><i class="pupil"></i></div>
+          <div class="eye eye-r" data-eye><i class="pupil"></i></div>
         </div>
-        <div class="hero-copy">
-          <p class="hello">Michel aqui, prazer 👋</p>
+      </div>
+    </section>
+
+    <section class="pillars">
+      <article>
+        <h2>Produto digital</h2>
+        <p>
+          Levantamento de requisitos, fluxos claros e interfaces que o time realmente usa —
+          CRM, painéis e ferramentas web em produção.
+        </p>
+      </article>
+      <article>
+        <h2>Backend &amp; dados</h2>
+        <p>
+          Modelagem em <strong>Supabase/PostgreSQL</strong>, Auth, RLS e regras no banco.
+          Frontend em <strong>React/Next.js</strong>.
+        </p>
+      </article>
+      <article>
+        <h2>Automação &amp; IA</h2>
+        <p>
+          Workflows em <strong>n8n</strong>, integrações e agentes com LLM —
+          com handoff humano quando a confiança cai.
+        </p>
+      </article>
+    </section>
+
+    <div class="cta-wrap">
+      <a
+        class="cta"
+        href="https://wa.me/5551982710396?text=vim%20pelo%20seu%20portif%C3%B3lio"
+        target="_blank"
+        rel="noopener"
+      >Vamos conversar</a>
+    </div>
+
+    <section id="trabalho" class="work">
+      <h2 class="work-title">Trabalho em produção</h2>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <a class="thumb" href="https://edmlean.com.br" target="_blank" rel="noopener">
+            <img src="assets/edm-lean.png" alt="EDM Lean" loading="lazy" width="1440" height="900" />
+          </a>
+          <p class="tag">SaaS · INPI</p>
+          <h3>EDM Lean</h3>
           <p>
-            Construo sistemas e automações que a equipe usa de verdade —
-            banco, regras no backend e interface. CRM em produção, kanban de
-            ferramentaria e fluxos no WhatsApp.
+            Plataforma de gestão operacional com kanban e indicadores.
+            Eficiência de <strong>48% → 61%</strong> em 3 meses.
           </p>
+          <p class="links">
+            <a href="https://edmlean.com.br" target="_blank" rel="noopener">site</a>
+            <a href="https://github.com/michelfioravante-alt/edm-lean" target="_blank" rel="noopener">código</a>
+          </p>
+        </article>
+
+        <article class="work-card">
+          <a class="thumb" href="https://crm-mwk.vercel.app" target="_blank" rel="noopener">
+            <img src="assets/crm-mwk.png" alt="CRM MWK" loading="lazy" width="1440" height="900" />
+          </a>
+          <p class="tag">Web app</p>
+          <h3>CRM MWK</h3>
           <p>
-            Sapucaia do Sul, RS · Remoto. Stack: React, Next.js, Supabase,
-            PostgreSQL, n8n, Vercel.
+            CRM B2B com Auth, RLS por perfil e OCR.
+            Em uso por <strong>~30 pessoas</strong>.
           </p>
-          <div class="cta-row">
-            <a class="btn primary" href="#trabalho">ver trabalho</a>
-            <a class="btn ghost" href="mailto:michelfioravante@gmail.com">falar comigo</a>
-          </div>
-        </div>
-      </section>
+          <p class="links">
+            <a href="https://crm-mwk.vercel.app" target="_blank" rel="noopener">demo</a>
+            <a href="https://github.com/michelfioravante-alt/crm-mwk" target="_blank" rel="noopener">código</a>
+          </p>
+        </article>
 
-      <section id="trabalho" class="work">
-        <header class="section-head">
-          <h2>trabalho em produção_</h2>
-          <p>Três projetos com demo ou código aberto. Miniaturas das telas reais.</p>
-        </header>
+        <article class="work-card">
+          <a class="thumb" href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener">
+            <img src="assets/nexlog.png" alt="Nexlog AI" loading="lazy" width="1440" height="900" />
+          </a>
+          <p class="tag">Automação</p>
+          <h3>Nexlog AI</h3>
+          <p>
+            Atendimento inteligente com n8n + LLM.
+            Primeira resposta de <strong>~4h → ~45s</strong>.
+          </p>
+          <p class="links">
+            <a href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener">workflows</a>
+          </p>
+        </article>
+      </div>
+    </section>
 
-        <div class="work-list">
-          <article class="work-item">
-            <a class="thumb" href="https://crm-mwk.vercel.app" target="_blank" rel="noopener">
-              <img src="assets/crm-mwk.png" alt="Tela do CRM MWK" loading="lazy" width="1440" height="900" />
-            </a>
-            <div class="work-meta">
-              <span class="tag">Produção</span>
-              <h3>CRM MWK</h3>
-              <p>CRM B2B para equipe de campo (~30 usuários). Next.js, Supabase com Auth e RLS por perfil, OCR de odômetro.</p>
-              <div class="links">
-                <a href="https://crm-mwk.vercel.app" target="_blank" rel="noopener">abrir demo →</a>
-                <a href="https://github.com/michelfioravante-alt/crm-mwk" target="_blank" rel="noopener">código →</a>
-              </div>
-            </div>
-          </article>
+    <section id="sobre" class="about">
+      <h2>Sobre</h2>
+      <p>
+        Trabalho remoto construindo automações e sistemas web ponta a ponta —
+        do mapeamento do processo à entrega em produção.
+        MBA em Engenharia de Processos (PUCRS), foco em produto digital,
+        dados e automação com IA.
+      </p>
+      <p class="stack">
+        React · Next.js · TypeScript · Supabase · PostgreSQL · n8n · BPMN · Power BI
+      </p>
+    </section>
 
-          <article class="work-item">
-            <a class="thumb" href="https://edmlean.com.br" target="_blank" rel="noopener">
-              <img src="assets/edm-lean.png" alt="Kanban do EDM Lean" loading="lazy" width="1440" height="900" />
-            </a>
-            <div class="work-meta">
-              <span class="tag">Produção</span>
-              <h3>EDM Lean</h3>
-              <p>Kanban de chão de fábrica para ferramentaria e usinagem: setores CNC/EDM, horas máquina, estoque e regras no Postgres.</p>
-              <div class="links">
-                <a href="https://edmlean.com.br" target="_blank" rel="noopener">abrir site →</a>
-                <a href="https://github.com/michelfioravante-alt/edm-lean" target="_blank" rel="noopener">código →</a>
-              </div>
-            </div>
-          </article>
+    <section id="contato" class="contact">
+      <h2>Contato</h2>
+      <p>Sapucaia do Sul, RS · Aberto a vagas home office / remoto.</p>
+      <p class="links contact-links">
+        <a
+          href="https://wa.me/5551982710396?text=vim%20pelo%20seu%20portif%C3%B3lio"
+          target="_blank"
+          rel="noopener"
+        >whatsapp</a>
+        <a href="mailto:michelfioravante@gmail.com">email</a>
+        <a href="https://www.linkedin.com/in/michel-fioravante/" target="_blank" rel="noopener">linkedin</a>
+        <a href="https://github.com/michelfioravante-alt" target="_blank" rel="noopener">github</a>
+      </p>
+    </section>
+  </main>
 
-          <article class="work-item">
-            <a class="thumb" href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener">
-              <img src="assets/nexlog.png" alt="Repositório Nexlog AI" loading="lazy" width="1440" height="900" />
-            </a>
-            <div class="work-meta">
-              <span class="tag">Automação</span>
-              <h3>Nexlog AI</h3>
-              <p>Atendimento no WhatsApp com n8n e LLM: webhook, transcrição de áudio, roteamento por confiança e handoff humano no ClickUp.</p>
-              <div class="links">
-                <a href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener">ver workflows →</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
+  <footer>
+    <span>Michel Fioravante</span>
+    <span>2026</span>
+  </footer>
 
-      <section class="about">
-        <header class="section-head">
-          <h2>como entrego_</h2>
-        </header>
-        <ul class="principles">
-          <li>Regra de negócio no banco (RLS, triggers, RPCs) — não só no React</li>
-          <li>Automação com caminho de falha: quando a IA erra, humano assume</li>
-          <li>Formação em engenharia de processos · ferramentas que precisam ficar no ar</li>
-        </ul>
-      </section>
+  <script>
+    (function () {
+      var eyes = document.querySelectorAll("[data-eye]");
+      if (!eyes.length) return;
 
-      <section id="contato" class="contact">
-        <hr class="ink-rule" />
-        <h2>vamos conversar_</h2>
-        <p class="lead">Aberto a oportunidades remotas em automação, Supabase/React e IA próxima do processo.</p>
-        <div class="cta-row">
-          <a class="btn primary" href="mailto:michelfioravante@gmail.com">michelfioravante@gmail.com</a>
-          <a class="btn ghost" href="https://www.linkedin.com/in/michel-fioravante/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn ghost" href="https://github.com/michelfioravante-alt" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </section>
-    </main>
+      document.addEventListener("mousemove", function (e) {
+        for (var i = 0; i < eyes.length; i++) {
+          var eye = eyes[i];
+          var pupil = eye.querySelector(".pupil");
+          if (!pupil) continue;
 
-    <footer>
-      <span>MICHEL FIORAVANTE</span>
-      <span>portfólio · 2026</span>
-    </footer>
-  </div>
+          var r = eye.getBoundingClientRect();
+          var x = e.clientX - (r.left + r.width / 2);
+          var y = e.clientY - (r.top + r.height / 2);
+          var angle = Math.atan2(y, x);
+          var maxMove = Math.min(r.width, r.height) * 0.32;
+          var travel = Math.min(maxMove, Math.hypot(x, y) / 8);
+
+          pupil.style.transform =
+            "translate(" +
+            (Math.cos(angle) * travel).toFixed(2) +
+            "px, " +
+            (Math.sin(angle) * travel).toFixed(2) +
+            "px)";
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
