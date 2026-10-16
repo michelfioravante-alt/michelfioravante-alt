@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Michel Fioravante — Sistemas e automações em produção</title>
+  <meta name="description" content="Michel Fioravante: sistemas e automações em produção com React, Supabase e n8n. CRM, shop floor e WhatsApp." />
+  <meta property="og:title" content="Michel Fioravante" />
+  <meta property="og:description" content="Sistemas e automações que empresas usam no dia a dia." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+
+  <header class="top">
+    <a class="mark" href="#topo">Michel Fioravante</a>
+    <nav>
+      <a href="#trabalho">Trabalho</a>
+      <a href="#contato">Contato</a>
+      <a class="nav-cta" href="https://github.com/michelfioravante-alt" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <p class="brand">Michel Fioravante</p>
+      <h1>Sistemas e automações que a equipe usa de verdade.</h1>
+      <p class="lead">
+        Banco, regras no backend e interface — CRM em produção, kanban de ferramentaria e fluxos no WhatsApp.
+        Sapucaia do Sul, RS · Remoto.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#trabalho">Ver trabalho</a>
+        <a class="btn ghost" href="mailto:michelfioravante@gmail.com">Falar comigo</a>
+      </div>
+    </section>
+
+    <section id="trabalho" class="work">
+      <header class="section-head">
+        <h2>Trabalho em produção</h2>
+        <p>Quatro projetos com demo ou código aberto. Sem métrica inventada.</p>
+      </header>
+
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-meta">
+            <span class="tag">Produção</span>
+            <h3>CRM MWK</h3>
+            <p>CRM B2B para equipe de campo (~30 usuários). Next.js, Supabase com Auth e RLS por perfil, OCR de odômetro, testes Playwright.</p>
+            <div class="links">
+              <a href="https://crm-mwk.vercel.app" target="_blank" rel="noopener">Abrir demo</a>
+              <a href="https://github.com/michelfioravante-alt/crm-mwk" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="work-visual crm" href="https://crm-mwk.vercel.app" target="_blank" rel="noopener" aria-label="Demo CRM MWK">
+            <span>crm-mwk.vercel.app</span>
+          </a>
+        </article>
+
+        <article class="work-item">
+          <div class="work-meta">
+            <span class="tag">Produção</span>
+            <h3>EDM Lean</h3>
+            <p>Kanban de chão de fábrica para ferramentaria e usinagem: setores CNC/EDM, horas máquina, estoque e regras no Postgres. Não é ERP genérico.</p>
+            <div class="links">
+              <a href="https://edmlean.com.br" target="_blank" rel="noopener">Abrir site</a>
+              <a href="https://github.com/michelfioravante-alt/edm-lean" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="work-visual edm" href="https://edmlean.com.br" target="_blank" rel="noopener" aria-label="EDM Lean">
+            <span>edmlean.com.br</span>
+          </a>
+        </article>
+
+        <article class="work-item">
+          <div class="work-meta">
+            <span class="tag">Automação</span>
+            <h3>Nexlog AI</h3>
+            <p>Atendimento no WhatsApp com n8n e LLM: webhook, transcrição de áudio, roteamento por confiança e handoff humano no ClickUp.</p>
+            <div class="links">
+              <a href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener">Ver workflows</a>
+            </div>
+          </div>
+          <a class="work-visual nex" href="https://github.com/michelfioravante-alt/nexlog-ai-automation" target="_blank" rel="noopener" aria-label="Nexlog AI">
+            <span>n8n · WhatsApp · LLM</span>
+          </a>
+        </article>
+
+        <article class="work-item">
+          <div class="work-meta">
+            <span class="tag">Dashboard</span>
+            <h3>NovaPay</h3>
+            <p>Painel comercial com RLS por perfil, trigger no Postgres e alerta de meta agendado no n8n.</p>
+            <div class="links">
+              <a href="https://novapay-dashboard.vercel.app" target="_blank" rel="noopener">Abrir demo</a>
+              <a href="https://github.com/michelfioravante-alt/novapay-dashboard" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+          <a class="work-visual nova" href="https://novapay-dashboard.vercel.app" target="_blank" rel="noopener" aria-label="NovaPay">
+            <span>novapay-dashboard.vercel.app</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about">
+      <header class="section-head">
+        <h2>Como entrego</h2>
+        <p>Formação em engenharia de processos. Stack de quem precisa manter o sistema no ar.</p>
+      </header>
+      <ul class="principles">
+        <li>Regra de negócio no banco (RLS, triggers, RPCs) — não só no React</li>
+        <li>Automação com caminho de falha: quando a IA erra, humano assume</li>
+        <li>Ferramentas: React, Next.js, TypeScript, Supabase, PostgreSQL, n8n, Vercel</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="contact">
+      <p class="brand small">Contato</p>
+      <h2>Aberto a oportunidades remotas</h2>
+      <p class="lead short">Automação, sistemas com Supabase/React e integração com IA próxima do processo.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="mailto:michelfioravante@gmail.com">michelfioravante@gmail.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/michel-fioravante/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/michelfioravante-alt" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Michel Fioravante</span>
+    <span>Portfólio estático · sem framework</span>
+  </footer>
+</body>
+</html>
