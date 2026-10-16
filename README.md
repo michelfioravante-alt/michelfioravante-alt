@@ -21,9 +21,8 @@ Modelo o banco, coloco regra no backend e entrego ferramenta que a equipe usa no
 | **CRM MWK** | CRM B2B em produção (~30 usuários): Auth, RLS por perfil, OCR de odômetro | [Demo](https://crm-mwk.vercel.app) · [Código](https://github.com/michelfioravante-alt/crm-mwk) |
 | **EDM Lean** | Kanban de chão de fábrica para ferramentaria: setores, horas máquina, estoque | [Site](https://edmlean.com.br) · [Código](https://github.com/michelfioravante-alt/edm-lean) |
 | **Nexlog AI** | WhatsApp + n8n + LLM: transcrição, roteamento e handoff humano | [Workflows](https://github.com/michelfioravante-alt/nexlog-ai-automation) |
-| **NovaPay** | Dashboard comercial com RLS e alerta de meta via n8n | [Demo](https://novapay-dashboard.vercel.app) · [Código](https://github.com/michelfioravante-alt/novapay-dashboard) |
 
-CRM MWK: demo sem cadastro (“Entrar como Técnico” / “Entrar como Gestor”). NovaPay: credenciais no README do repo.
+CRM MWK: demo sem cadastro (“Entrar como Técnico” / “Entrar como Gestor”).
 
 ---
 
