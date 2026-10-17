@@ -77,6 +77,15 @@ main {
   padding: 2rem 0 1.5rem;
 }
 
+.role {
+  margin: 0 0 0.65rem;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
 .hero h1 {
   margin: 0;
   font-size: clamp(2.8rem, 7.5vw, 4.6rem);
@@ -145,6 +154,43 @@ main {
   flex-shrink: 0;
   transform: translate(0, 0);
   will-change: transform;
+}
+
+/* Joinha na entrada */
+.thumbs-up {
+  opacity: 0;
+  transform-origin: 118px 248px;
+  transform: translateY(12px) rotate(-8deg) scale(0.85);
+  transition:
+    opacity 0.35s ease,
+    transform 0.45s cubic-bezier(0.22, 1.2, 0.36, 1);
+  pointer-events: none;
+}
+
+.arm-rest {
+  transition: opacity 0.25s ease;
+}
+
+.mascot-stage.is-greeting .thumbs-up {
+  opacity: 1;
+  transform: translateY(0) rotate(0deg) scale(1);
+  animation: thumbs-bounce 0.7s ease 0.35s 1 both;
+}
+
+.mascot-stage.is-greeting .arm-rest {
+  opacity: 0;
+}
+
+@keyframes thumbs-bounce {
+  0% {
+    transform: translateY(8px) scale(0.9);
+  }
+  45% {
+    transform: translateY(-6px) scale(1.06);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 
 .pillars {

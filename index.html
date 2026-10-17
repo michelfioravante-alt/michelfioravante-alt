@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Michel Fioravante — Automação, sistemas e processos</title>
-  <meta name="description" content="Michel Fioravante: automação, sistemas web e melhoria de processos. React, Supabase, n8n. Aberto a vagas home office." />
-  <meta property="og:title" content="Michel Fioravante" />
-  <meta property="og:description" content="Automação, sistemas e processos — remoto." />
+  <title>Michel Fioravante — Analista de Automação e Processos</title>
+  <meta name="description" content="Michel Fioravante: Analista de Automação e Processos. Sistemas, n8n, Supabase e React. Aberto a vagas remotas / home office." />
+
+  <meta property="og:title" content="Michel Fioravante — Analista de Automação e Processos" />
+  <meta property="og:description" content="Automação + processos. Sistemas em produção. Aberto a vagas remotas." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://michel-fioravante.vercel.app/assets/edm-lean.png" />
+  <meta property="og:url" content="https://michel-fioravante.vercel.app/" />
+  <meta property="og:image" content="https://michel-fioravante.vercel.app/assets/og-joinha.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="675" />
+  <meta property="og:image:alt" content="Ilustração: Michel fazendo joinha no computador" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Michel Fioravante — Analista de Automação e Processos" />
+  <meta name="twitter:description" content="Automação + processos. Sistemas em produção. Aberto a vagas remotas." />
+  <meta name="twitter:image" content="https://michel-fioravante.vercel.app/assets/og-joinha.jpg" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="styles.css?v=7" />
 </head>
 <body>
   <header class="top">
@@ -27,19 +39,25 @@
   <main id="topo">
     <section class="hero">
       <div class="hero-text">
-        <h1>Automação,<br />sistemas &amp;<br />processos</h1>
-        <p class="sub">React · Supabase · n8n · home office</p>
+        <p class="role">Analista de Automação e Processos</p>
+        <h1>Automação<br />&amp; processos</h1>
+        <p class="sub">Sistemas em produção · vagas remotas</p>
       </div>
 
       <div class="hero-art">
-        <div class="mascot-stage" id="mascot">
+        <div class="mascot-stage is-greeting" id="mascot">
           <svg class="mascot" viewBox="0 0 480 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M118 248c12-70 42-102 78-102s66 32 78 102" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M136 220c22 14 44 20 70 20s48-6 70-20" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
-            <path d="M118 250c-22 10-40 36-44 58" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+
+            <!-- braço esquerdo em repouso (some no joinha) -->
+            <path class="arm-rest" d="M118 250c-22 10-40 36-44 58" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+
+            <!-- braço direito no teclado -->
             <path d="M274 248c28 8 58 28 86 48" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
             <path d="M350 292c10 2 22 3 34 0" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
             <path d="M358 296c3 8 6 14 8 20M370 294c2 9 5 16 6 22M380 292c2 8 4 14 5 18" stroke="#111" stroke-width="2.6" stroke-linecap="round" />
+
             <path d="M182 168v28M210 168v30" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
             <ellipse cx="196" cy="118" rx="58" ry="62" stroke="#111" stroke-width="3.4" fill="#fff" />
             <path d="M142 118c4-48 28-72 54-72s50 24 54 72" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="#fff" />
@@ -50,6 +68,17 @@
             <path d="M208 94c10-6 22-6 32 2" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
             <path d="M192 120c4 12 6 20 2 28" stroke="#111" stroke-width="3" stroke-linecap="round" />
             <path d="M178 162c10 12 30 12 40 0" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
+
+            <!-- JOINHA: braço esquerdo levantado + polegar -->
+            <g class="thumbs-up">
+              <path d="M118 248c-28-8-48-36-52-78" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
+              <!-- mão -->
+              <ellipse cx="62" cy="148" rx="18" ry="22" stroke="#111" stroke-width="3.2" fill="#fff" transform="rotate(-18 62 148)" />
+              <!-- polegar para cima -->
+              <path d="M58 132c-2-18 2-32 10-38c6-4 12 2 10 12c-2 8-4 16-4 22" stroke="#111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="#fff" />
+              <path d="M72 140c8 2 14 8 16 14M74 152c8 4 12 10 12 16M70 162c6 6 8 12 8 16" stroke="#111" stroke-width="2.8" stroke-linecap="round" />
+            </g>
+
             <g class="laptop">
               <path d="M290 188l150-36 2 118-152 40z" stroke="#111" stroke-width="3.4" stroke-linejoin="round" fill="#fff" />
               <path d="M304 192l124-30 1 96-125 32z" stroke="#111" stroke-width="2.6" fill="#fff" />
@@ -66,24 +95,24 @@
 
     <section class="pillars">
       <article>
-        <h2>Produto digital</h2>
+        <h2>Processos</h2>
         <p>
-          Levantamento de requisitos, fluxos claros e interfaces que o time realmente usa —
-          CRM, painéis e ferramentas web em produção.
+          Diagnóstico, mapeamento e redesenho de fluxos —
+          do problema à solução que o time consegue sustentar.
         </p>
       </article>
       <article>
-        <h2>Backend &amp; dados</h2>
+        <h2>Automação</h2>
         <p>
-          Modelagem em <strong>Supabase/PostgreSQL</strong>, Auth, RLS e regras no banco.
-          Frontend em <strong>React/Next.js</strong>.
-        </p>
-      </article>
-      <article>
-        <h2>Automação &amp; IA</h2>
-        <p>
-          Workflows em <strong>n8n</strong>, integrações e agentes com LLM —
+          Workflows em <strong>n8n</strong>, integrações e agentes com LLM,
           com handoff humano quando a confiança cai.
+        </p>
+      </article>
+      <article>
+        <h2>Sistemas</h2>
+        <p>
+          Apps em <strong>React/Next.js</strong> + <strong>Supabase</strong>
+          (Auth, RLS, regras no banco) em uso real.
         </p>
       </article>
     </section>
@@ -108,7 +137,7 @@
           <p class="tag">SaaS · INPI</p>
           <h3>EDM Lean</h3>
           <p>
-            Plataforma de gestão operacional com kanban e indicadores.
+            Plataforma de gestão com kanban e indicadores.
             Eficiência de <strong>48% → 61%</strong> em 3 meses.
           </p>
           <p class="links">
@@ -140,7 +169,7 @@
           <p class="tag">Automação</p>
           <h3>Nexlog AI</h3>
           <p>
-            Atendimento inteligente com n8n + LLM.
+            Atendimento com n8n + LLM.
             Primeira resposta de <strong>~4h → ~45s</strong>.
           </p>
           <p class="links">
@@ -153,19 +182,18 @@
     <section id="sobre" class="about">
       <h2>Sobre</h2>
       <p>
-        Trabalho remoto construindo automações e sistemas web ponta a ponta —
-        do mapeamento do processo à entrega em produção.
-        MBA em Engenharia de Processos (PUCRS), foco em produto digital,
-        dados e automação com IA.
+        Analista de Automação e Processos — o meio-termo entre entender o fluxo
+        e construir a automação/sistema que resolve. MBA em Engenharia de Processos (PUCRS).
+        Busco vagas <strong>remotas / home office</strong>.
       </p>
       <p class="stack">
-        React · Next.js · TypeScript · Supabase · PostgreSQL · n8n · BPMN · Power BI
+        n8n · Supabase · PostgreSQL · React · Next.js · TypeScript · BPMN · Power BI
       </p>
     </section>
 
     <section id="contato" class="contact">
       <h2>Contato</h2>
-      <p>Sapucaia do Sul, RS · Aberto a vagas home office / remoto.</p>
+      <p>Sapucaia do Sul, RS · Remoto</p>
       <p class="links contact-links">
         <a
           href="https://wa.me/5551982710396?text=vim%20pelo%20seu%20portif%C3%B3lio"
@@ -186,6 +214,13 @@
 
   <script>
     (function () {
+      var stage = document.getElementById("mascot");
+      if (stage) {
+        window.setTimeout(function () {
+          stage.classList.remove("is-greeting");
+        }, 2200);
+      }
+
       var eyes = document.querySelectorAll("[data-eye]");
       if (!eyes.length) return;
 
