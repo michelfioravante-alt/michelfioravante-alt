@@ -10,21 +10,19 @@
   <meta property="og:description" content="Automação + processos. Sistemas em produção. Aberto a vagas remotas." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://michel-fioravante.vercel.app/" />
-  <meta property="og:image" content="https://michel-fioravante.vercel.app/assets/og-thumb.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1280" />
-  <meta property="og:image:height" content="720" />
-  <meta property="og:image:alt" content="Ilustração: Michel fazendo joinha no computador" />
+  <meta property="og:image" content="https://michel-fioravante.vercel.app/assets/edm-lean.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Michel Fioravante — Analista de Automação e Processos" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Michel Fioravante — Analista de Automação e Processos" />
   <meta name="twitter:description" content="Automação + processos. Sistemas em produção. Aberto a vagas remotas." />
-  <meta name="twitter:image" content="https://michel-fioravante.vercel.app/assets/og-thumb.jpg" />
+  <meta name="twitter:image" content="https://michel-fioravante.vercel.app/assets/edm-lean.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=8" />
+  <link rel="stylesheet" href="styles.css?v=9" />
 </head>
 <body>
   <header class="top">
@@ -45,19 +43,14 @@
       </div>
 
       <div class="hero-art">
-        <div class="mascot-stage is-greeting" id="mascot">
+        <div class="mascot-stage" id="mascot">
           <svg class="mascot" viewBox="0 0 480 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M118 248c12-70 42-102 78-102s66 32 78 102" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M136 220c22 14 44 20 70 20s48-6 70-20" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
-
-            <!-- braço esquerdo em repouso (some no joinha) -->
-            <path class="arm-rest" d="M118 250c-22 10-40 36-44 58" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
-
-            <!-- braço direito no teclado -->
+            <path d="M118 250c-22 10-40 36-44 58" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
             <path d="M274 248c28 8 58 28 86 48" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
             <path d="M350 292c10 2 22 3 34 0" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
             <path d="M358 296c3 8 6 14 8 20M370 294c2 9 5 16 6 22M380 292c2 8 4 14 5 18" stroke="#111" stroke-width="2.6" stroke-linecap="round" />
-
             <path d="M182 168v28M210 168v30" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
             <ellipse cx="196" cy="118" rx="58" ry="62" stroke="#111" stroke-width="3.4" fill="#fff" />
             <path d="M142 118c4-48 28-72 54-72s50 24 54 72" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="#fff" />
@@ -68,33 +61,6 @@
             <path d="M208 94c10-6 22-6 32 2" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
             <path d="M192 120c4 12 6 20 2 28" stroke="#111" stroke-width="3" stroke-linecap="round" />
             <path d="M178 162c10 12 30 12 40 0" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
-
-            <!-- JOINHA: braço + mão fechada + polegar pra cima -->
-            <g class="thumbs-up">
-              <!-- antebraço -->
-              <path d="M122 246c-18-10-36-36-40-70" stroke="#111" stroke-width="3.4" stroke-linecap="round" />
-              <!-- punho / mão fechada -->
-              <path
-                d="M52 158h30a9 9 0 0 1 9 9v26a12 12 0 0 1-12 12H56a12 12 0 0 1-12-12v-23a9 9 0 0 1 8-12z"
-                stroke="#111"
-                stroke-width="3.2"
-                stroke-linejoin="round"
-                fill="#fff"
-              />
-              <!-- linhas dos dedos (punho) -->
-              <path d="M58 172h18M58 182h18M58 192h16" stroke="#111" stroke-width="2.2" stroke-linecap="round" />
-              <!-- polegar pra cima (bem claro) -->
-              <path
-                d="M58 158v-34a11 11 0 0 1 22 0v34"
-                stroke="#111"
-                stroke-width="3.2"
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                fill="#fff"
-              />
-              <path d="M58 158h22" stroke="#111" stroke-width="3.2" stroke-linecap="round" />
-            </g>
-
             <g class="laptop">
               <path d="M290 188l150-36 2 118-152 40z" stroke="#111" stroke-width="3.4" stroke-linejoin="round" fill="#fff" />
               <path d="M304 192l124-30 1 96-125 32z" stroke="#111" stroke-width="2.6" fill="#fff" />
@@ -230,13 +196,6 @@
 
   <script>
     (function () {
-      var stage = document.getElementById("mascot");
-      if (stage) {
-        window.setTimeout(function () {
-          stage.classList.remove("is-greeting");
-        }, 2200);
-      }
-
       var eyes = document.querySelectorAll("[data-eye]");
       if (!eyes.length) return;
 
