@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Michel Fioravante — Currículo</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Outfit, "Segoe UI", sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: #111;
+    }
+    .page { padding: 0; max-width: 190mm; }
+    h1 {
+      font-size: 22pt;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin: 0 0 2pt;
+    }
+    .role {
+      font-size: 11.5pt;
+      font-weight: 600;
+      margin: 0 0 6pt;
+    }
+    .contact {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 8.5pt;
+      color: #444;
+      margin: 0 0 12pt;
+      line-height: 1.55;
+    }
+    h2 {
+      font-size: 10pt;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #111;
+      padding-bottom: 3pt;
+      margin: 12pt 0 7pt;
+    }
+    h3 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      margin: 8pt 0 1pt;
+    }
+    .meta {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 8pt;
+      color: #555;
+      margin: 0 0 4pt;
+    }
+    p { margin: 0 0 6pt; }
+    ul {
+      margin: 0 0 6pt;
+      padding-left: 16pt;
+    }
+    li { margin-bottom: 2pt; }
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3pt 14pt;
+    }
+    .skills p { margin: 0 0 3pt; font-size: 9.5pt; }
+    @page { size: A4; margin: 14mm 16mm; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Michel Fioravante</h1>
+    <p class="role">Analista de Automação e Processos</p>
+    <p class="contact">
+      Sapucaia do Sul, RS · Remoto / home office<br />
+      michelfioravante@gmail.com · (51) 98271-0396<br />
+      linkedin.com/in/michel-fioravante · github.com/michelfioravante-alt · michel-fioravante.vercel.app
+    </p>
+
+    <h2>Resumo</h2>
+    <p>
+      Analista de Automação e Processos — o meio-termo entre mapear o fluxo e construir a solução que resolve.
+      MBA em Engenharia de Processos (PUCRS) e Six Sigma Green Belt. Entrego ponta a ponta: levantamento com
+      stakeholders, redesenho do processo e implementação em <strong>n8n</strong>, <strong>Supabase/PostgreSQL</strong>
+      e <strong>React/Next.js</strong>.
+    </p>
+    <p>
+      Resultados recentes: automação de atendimento com redução da primeira resposta de <strong>~4h para ~45s</strong>;
+      CRM B2B em uso por <strong>~30 pessoas</strong>; plataforma de gestão com ganho de eficiência de
+      <strong>48% para 61%</strong> em 3 meses.
+    </p>
+
+    <h2>Experiência</h2>
+
+    <h3>Analista de Processos e Automação — Projetos Independentes (PJ)</h3>
+    <p class="meta">Remoto · Ago 2024 — atual</p>
+    <ul>
+      <li>Levantamento de requisitos e regras de negócio com áreas usuárias.</li>
+      <li>Mapeamento AS-IS / TO-BE (BPMN) e desenho de soluções digitais.</li>
+      <li>Automação de atendimento (n8n + agentes de IA): primeira resposta de ~4h para ~45s.</li>
+      <li>Digitalização comercial B2B: CRM que substituiu planilha compartilhada (~30 usuários).</li>
+      <li>Uso de IA generativa (Cursor, Claude) para acelerar análise, documentação e entrega.</li>
+    </ul>
+
+    <h3>Analista de Processos — Metalúrgica Corte Metal</h3>
+    <p class="meta">Freelance · Set 2025 — atual</p>
+    <ul>
+      <li>Mapeamento de fluxos, POPs e padronização de atividades críticas.</li>
+      <li>Implantação de solução própria (EDM Lean) para KPIs: eficiência de 48% → 61% em 3 meses.</li>
+    </ul>
+
+    <h3>Assistente de Processos — Index Tecnologia</h3>
+    <p class="meta">CLT · São Leopoldo, RS · Mar 2025 — Set 2025</p>
+    <ul>
+      <li>Documentação e melhoria contínua, com POPs, KPIs e rotinas de controle.</li>
+      <li>Apoio às equipes na adoção de novos padrões de trabalho.</li>
+    </ul>
+    <p class="meta">Anterior: Programador CNC na Index Tecnologia (Jan 2020 — Jul 2023).</p>
+
+    <h2>Projetos em produção</h2>
+
+    <h3>EDM Lean — Gestão operacional (SaaS)</h3>
+    <p class="meta">React · Supabase · Vercel · INPI · edmlean.com.br</p>
+    <ul>
+      <li>Kanban, indicadores e regras no banco. Piloto: <strong>48% → 61%</strong> de eficiência em 3 meses.</li>
+    </ul>
+
+    <h3>CRM MWK — Gestão comercial B2B</h3>
+    <p class="meta">Next.js · TypeScript · Supabase · OCR · crm-mwk.vercel.app</p>
+    <ul>
+      <li>Substituiu planilha; Auth + RLS por perfil. <strong>~30 usuários</strong> em produção.</li>
+    </ul>
+
+    <h3>Nexlog AI — Automação de atendimento</h3>
+    <p class="meta">n8n · Evolution API · Supabase · LLM/Dify</p>
+    <ul>
+      <li>Triagem por LLM e handoff humano. Primeira resposta <strong>~4h → ~45s</strong>.</li>
+    </ul>
+
+    <h2>Competências</h2>
+    <div class="skills">
+      <p><strong>Automação e IA:</strong> n8n, APIs REST, agentes com LLM, Dify</p>
+      <p><strong>Dados e sistemas:</strong> Supabase, PostgreSQL, RLS, React, Next.js</p>
+      <p><strong>Processos:</strong> AS-IS/TO-BE, BPMN, POPs, causa-raiz, KPIs</p>
+      <p><strong>Melhoria:</strong> Lean, Six Sigma Green Belt, DMAIC, Power BI</p>
+    </div>
+
+    <h2>Formação</h2>
+    <ul>
+      <li><strong>MBA</strong> em Gestão da Qualidade e Engenharia de Processos — PUCRS (2024 — 2025)</li>
+      <li><strong>Tecnólogo</strong> em Gestão da Produção Industrial — ULBRA (2020 — 2024)</li>
+      <li><strong>Técnico</strong> em Qualidade — Senac RS (2022 — 2023)</li>
+      <li><strong>Six Sigma Green Belt</strong> — FM2S (curso concluído; projeto final em andamento)</li>
+    </ul>
+
+    <h2>Idiomas</h2>
+    <p>Português — nativo · Inglês — leitura técnica</p>
+  </div>
+</body>
+</html>
